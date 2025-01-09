@@ -14,6 +14,7 @@
 		4C25F0D82D30640500867EAB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4C25F0D72D30640500867EAB /* Lottie */; };
 		4C25F0DC2D30677200867EAB /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C25F0DB2D30676600867EAB /* LottieView.swift */; };
 		4C25F0E12D30680700867EAB /* Animation - 1736453807292.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C25F0E02D30680700867EAB /* Animation - 1736453807292.json */; };
+		4C25F0E32D3068F400867EAB /* FavoriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C25F0E22D3068C500867EAB /* FavoriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4C25F0CE2D30606400867EAB /* LottieAnimationsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsListApp.swift; sourceTree = "<group>"; };
 		4C25F0DB2D30676600867EAB /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		4C25F0E02D30680700867EAB /* Animation - 1736453807292.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1736453807292.json"; sourceTree = "<group>"; };
+		4C25F0E22D3068C500867EAB /* FavoriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		4C25F0D42D30609300867EAB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4C25F0E22D3068C500867EAB /* FavoriteAnimation.swift */,
 				4C25F0D52D3060A000867EAB /* Views */,
 			);
 			path = Model;
@@ -179,6 +182,7 @@
 			files = (
 				4C25F0D22D30606400867EAB /* AnimationListView.swift in Sources */,
 				4C25F0D32D30606400867EAB /* LottieAnimationsListApp.swift in Sources */,
+				4C25F0E32D3068F400867EAB /* FavoriteAnimation.swift in Sources */,
 				4C25F0DC2D30677200867EAB /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
