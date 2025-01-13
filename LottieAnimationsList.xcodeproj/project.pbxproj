@@ -59,7 +59,6 @@
 		4C25F0CB2D30606400867EAB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4C25F0DB2D30676600867EAB /* LottieView.swift */,
 				4C25F0CA2D30606400867EAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -68,9 +67,9 @@
 		4C25F0CF2D30606400867EAB /* LottieAnimationsList */ = {
 			isa = PBXGroup;
 			children = (
+				4C25F0CE2D30606400867EAB /* LottieAnimationsListApp.swift */,
 				4C25F0D42D30609300867EAB /* Model */,
 				4C25F0CB2D30606400867EAB /* Preview Content */,
-				4C25F0CC2D30606400867EAB /* AnimationListView.swift */,
 				4C25F0CD2D30606400867EAB /* Assets.xcassets */,
 			);
 			path = LottieAnimationsList;
@@ -88,7 +87,8 @@
 		4C25F0D52D3060A000867EAB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4C25F0CE2D30606400867EAB /* LottieAnimationsListApp.swift */,
+				4C25F0DB2D30676600867EAB /* LottieView.swift */,
+				4C25F0CC2D30606400867EAB /* AnimationListView.swift */,
 				4C25F0DF2D3067AF00867EAB /* Animations */,
 			);
 			path = Views;
